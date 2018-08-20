@@ -1,0 +1,2 @@
+1 : Copy top 100 files from current directory to /var/dropzone
+    cp `ls | tail -100` /var/dropzone/ 
